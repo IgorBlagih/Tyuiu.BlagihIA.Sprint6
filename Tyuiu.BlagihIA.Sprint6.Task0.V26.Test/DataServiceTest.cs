@@ -7,7 +7,7 @@ namespace Tyuiu.BlagihIA.Sprint6.Task0.V26
         [TestMethod]
         public void TestMethod1()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             int x = 0;
             double wait = 0.25;

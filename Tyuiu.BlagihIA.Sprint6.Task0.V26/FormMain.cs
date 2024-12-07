@@ -37,7 +37,7 @@ namespace Tyuiu.BlagihIA.Sprint6.Task0.V26
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Task выполнил студент группы ИИПб-24-2 Благих Игорь Алекснадрович ");
+            MessageBox.Show("Task выполнил студент группы ИИПб-24-2 Благих Игорь Алекснадрович "); 
         }
     }
 }
