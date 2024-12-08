@@ -15,9 +15,17 @@ namespace Tyuiu.BlagihIA.Sprint6.Task1.V19.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round((Math.Cos(x)+ Math.Cos(x)/(x+2)-3*x), 2);
-                vArray[count] = y;
-                count++;
+                if (x + 2 == 0)
+                {
+                    vArray[count] = 0;
+                    count++;
+                }
+                else
+                {
+                    y = Math.Round((Math.Cos(x) + Math.Cos(x) / (x + 2) - 3 * x), 2);
+                    vArray[count] = y;
+                    count++;
+                }
             }
             return vArray;
         }
