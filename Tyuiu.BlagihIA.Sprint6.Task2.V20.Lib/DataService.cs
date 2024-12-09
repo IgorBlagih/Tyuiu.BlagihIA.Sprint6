@@ -13,14 +13,14 @@ namespace Tyuiu.BlagihIA.Sprint6.Task2.V20.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x + 2 == 0)
+                if (x + 1.2 == 0)
                 {
                     vArray[count] = 0;
                     count++;
                 }
                 else
                 {
-                    y = Math.Round((Math.Sin(x) / (x + 1.2)) - Math.Sin(x) * 2 - 2 * x, 2);
+                    y = Math.Round((Math.Sin(x) / (x + 1.2)) - (Math.Sin(x) * 2) - (2 * x), 2);
                     vArray[count] = y;
                     count++;
                 }
