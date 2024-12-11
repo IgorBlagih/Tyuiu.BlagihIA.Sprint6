@@ -20,7 +20,7 @@ namespace Tyuiu.BlagihIA.Sprint6.Task4.V1.Lib
                 }
                 else
                 {
-                    y = Math.Round((Math.Sin(x) / (x + 1.2)) - (Math.Cos(x) * 7 * x) - 2, 2);
+                    y = Math.Round((Math.Sin(x) / (x + 1.2)) + (Math.Cos(x) * 7 * x) - 2, 2);
                     vArray[count] = y;
                     count++;
                 }
