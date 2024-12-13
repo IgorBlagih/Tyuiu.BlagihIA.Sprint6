@@ -16,7 +16,7 @@ namespace Tyuiu.BlagihIA.Sprint6.Task6.V27.Lib
             {
                 if (word.Contains(item))
                 {
-                    res += word;
+                    res += " " + word;
 
                  }
             }
