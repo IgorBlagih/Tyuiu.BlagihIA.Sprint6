@@ -27,7 +27,7 @@ namespace Tyuiu.BlagihIA.Sprint6.Task7.V24.Lib
             }
             int xRow = 2;
 
-            for(int i = xRow; i < xRow; i++)
+            for(int i = xRow; i <= xRow; i++)
             {
                 for(int j = 0; j < colums; j++)
                 {
