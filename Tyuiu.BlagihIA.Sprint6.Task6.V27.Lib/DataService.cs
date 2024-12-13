@@ -6,19 +6,22 @@ namespace Tyuiu.BlagihIA.Sprint6.Task6.V27.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string strx = File.ReadAllText(path);
-            string[] words = strx.Split(' ');
-
-            string res ="";
-            char item = 'H';
-            foreach (var word in words)
-
+            string res = "";
+            using (StreamReader reader = new StreamReader(path))
             {
-                if (word.Contains(item))
+                
+                string line;
+                while((line = reader.ReadLine()) != null)
                 {
-                    res += " " + word;
+                    foreach(var h in line.Split(' '))
+                    {
+                        if (h.Contains('H'))
+                        {
+                            res += " " + h;
 
-                 }
+                        }
+                    }
+                }
             }
 
             return res;
