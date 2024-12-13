@@ -27,9 +27,9 @@ namespace Tyuiu.BlagihIA.Sprint6.Task7.V24.Lib
             }
             int xRow = 2;
 
-            for(int i = 0; i < rows; i++)
+            for(int i = 0; i < xRow; i++)
             {
-                for(int j = 0; j < xRow; j++)
+                for(int j = 0; j < colums; j++)
                 {
                     if (aValues[i, j]%2 == 0)
                     {
