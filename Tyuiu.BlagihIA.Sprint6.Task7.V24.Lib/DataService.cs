@@ -25,7 +25,7 @@ namespace Tyuiu.BlagihIA.Sprint6.Task7.V24.Lib
                     aValues[r, c] = Convert.ToInt32(lines_r[c]);
                 }
             }
-            int xRow = 2;
+            int xRow = 1;
 
             for(int i = xRow; i <= xRow; i++)
             {
